@@ -19,6 +19,7 @@
 
 using namespace std;
 static default_random_engine gen;
+static int NUM_PARTICLES = 100;
 
 void ParticleFilter::init(double x, double y, double theta, double std[]) {
 	// TODO: Set the number of particles. Initialize all particles to first position (based on estimates of 
